@@ -1,4 +1,7 @@
 # systemd-shim for MX Linux
+
+[![Build Status](https://travis-ci.com/Head-on-a-Stick/systemd-shim.svg?branch=Travis_CI)](https://travis-ci.com/Head-on-a-Stick/systemd-shim)
+
 This repo contains a fork of systemd-shim.  It builds a Debian Buster based debian package for MX Linux.
 It depends on a modified systemd (available here: https://github.com/knelsonmeister/systemd)
 
