@@ -1,5 +1,9 @@
+language: C
+
 before_install: sudo apt update
 
 install: sudo apt install build-essential devscripts debhelper dh-autoreconf libglib2.0-dev systemd
 
-script: dpkg-buildpackage -us -uc -b
+script: skip
+
+after_script: dpkg-buildpackage -us -uc -b
